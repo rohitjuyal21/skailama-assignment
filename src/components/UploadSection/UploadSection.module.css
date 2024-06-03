@@ -1,0 +1,13 @@
+.uploadSection {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin: 54px 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 62px 84px;
+  width: 100%;
+}

@@ -1,0 +1,20 @@
+.displayConfig {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.displayTopConfigs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px 100px;
+}
+
+.toggleWrapper {
+  grid-column: 1 / span 2;
+}
+
+.horizontal {
+  height: 4px;
+  background-color: var(--border-color-tertiary);
+}
